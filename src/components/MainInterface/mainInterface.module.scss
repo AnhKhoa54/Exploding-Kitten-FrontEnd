@@ -1,0 +1,13 @@
+.mainInterfaceContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(circle, #aa0122 0%, #4c051a 100%);
+  display: flex;
+  padding: 13rem 3rem;
+  .titleAndIconComponent {
+    flex: 0 0 45%;
+  }
+  .joinRoomAndTutorialComponent {
+    flex: 0 0 55%;
+  }
+}
