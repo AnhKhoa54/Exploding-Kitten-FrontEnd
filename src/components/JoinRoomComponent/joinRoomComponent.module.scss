@@ -1,0 +1,21 @@
+.joinRoomInterfaceContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(circle, #aa0122 0%, #4c051a 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 3rem;
+  .backButtonContainer {
+    padding: 2rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+  }
+  .joinAndHostRoomContainer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

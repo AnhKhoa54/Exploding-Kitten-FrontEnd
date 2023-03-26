@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-family: 'Alkatra', sans-serif;
+
+.joinAndHostRoomComponent {
+  flex: 0 0 45%;
+  width: 90%;
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  border-radius: 25px 40px 40px 25px;
+  background-image: linear-gradient(5deg, #9a2723 10%, #8a1d1a 70%);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  .header {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 2rem 5rem;
+    flex-direction: column;
+    font-family: $font-family;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: #000;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    .mainText {
+      font-size: 2rem;
+      color: white;
+    }
+    .subText {
+      font-size: 1.6rem;
+      color: #566a33;
+      padding: 0 3rem;
+    }
+  }
+  .contents {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    .logo {
+      flex: 0 0 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+      }
+    }
+    .information {
+      flex: 0 0 80%;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      font-family: $font-family;
+      gap: 2rem;
+      .text {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 2px;
+        color: white;
+      }
+      .button {
+        width: 60%;
+        padding: 2rem;
+        font-size: 2rem;
+        color: white;
+        border: 2px solid #000;
+        text-align: center;
+        background-image: linear-gradient(5deg, #8dd518 10%, #7ac014 70%);
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+          rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      }
+    }
+  }
+}
