@@ -1,5 +1,5 @@
 import React from 'react'
-import MainInterface from './components/MainInterface/MainInterface'
+import MainInterface from './components/StartDisplayComponent/MainInterface'
 function App() {
   return (
     <div className='App'>
